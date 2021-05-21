@@ -1,13 +1,13 @@
 # Playing with pico
-I'm just playing with raspberry pi pico using <a href="https://circuitpython.org/">adafruit's circuit python</a>.
+I'm just playing with raspberry pi pico using <a href="https://circuitpython.org/" target="_blank">adafruit's circuit python</a>.
 
 Raspberry Pi Pico is a microcontroller board released by raspberrypi foundation in the Q1 of 2021.
 Raspberry Pi foundation has their own silicon chip RP2040 on this board.
 
 # Pi Pico
-You can get one from the raspberry pi site <a href="https://www.raspberrypi.org/products/raspberry-pi-pico/">here</a>.
-I's a microcontroller board based on RP2040 chip made by rapberry foundation and check out the <a href="https://www.raspberrypi.org/documentation/rp2040/getting-started/">pi pico</a>, most of the detail of raspberry pi pico is given in the site.
-You can check out pico's datasheet <a href="https://datasheets.raspberrypi.org/pico/pico-datasheet.pdf">here</a>.
+You can get one from the raspberry pi site <a href="https://www.raspberrypi.org/products/raspberry-pi-pico/" target="_blank">here</a>.
+I's a microcontroller board based on RP2040 chip made by rapberry foundation and check out the <a href="https://www.raspberrypi.org/documentation/rp2040/getting-started/" target="_blank">pi pico</a>, most of the detail of raspberry pi pico is given in the site.
+You can check out pico's datasheet <a href="https://datasheets.raspberrypi.org/pico/pico-datasheet.pdf" target="_blank">here</a>.
 
 <h3>Specs</h3>
 
@@ -27,22 +27,22 @@ Raspberry Pi Pico is a low-cost, high-performance microcontroller board with fle
   <li>Accelerated floating-point libraries on-chip</li>
   <li>8 × Programmable I/O (PIO) state machines for custom peripheral support</li>
 </ul>
-<img src="https://www.raspberrypi.org/documentation/rp2040/getting-started/static/64b50c4316a7aefef66290dcdecda8be/Pico-R3-SDK11-Pinout.svg">
-image source: <a href="https://www.raspberrypi.org/documentation/rp2040/getting-started/#board-specifications">Raspberry pi site</a>
-</br>You can find all the specification and detail about raspberry pi pico <a href="https://www.raspberrypi.org/documentation/rp2040/getting-started/#board-specifications">here</a>.
+<img src="https://www.raspberrypi.org/documentation/rp2040/getting-started/static/64b50c4316a7aefef66290dcdecda8be/Pico-R3-SDK11-Pinout.svg" target="_blank">
+image source: <a href="https://www.raspberrypi.org/documentation/rp2040/getting-started/#board-specifications" target="_blank">Raspberry pi site</a>
+</br>You can find all the specification and detail about raspberry pi pico <a href="https://www.raspberrypi.org/documentation/rp2040/getting-started/#board-specifications" target="_blank">here</a>.
 
 # Pico With Circuit Python
-<img src="https://cdn-learn.adafruit.com/guides/cropped_images/000/001/954/medium640/Blinka_Computing_Grey.png?1520546961">
-</br>image source:<a href="https://learn.adafruit.com/">Adafruit's Site</a>
-<a href="https://circuitpython.org/">Circuit python</a> is Adafruit's branch of micropython use for microcontrollers.
-</br>You can check out <a href="https://cdn-learn.adafruit.com/downloads/pdf/getting-started-with-raspberry-pi-pico-circuitpython.pdf?timestamp=1620201933">Getting started with Raspberry Pi Pico and Circuit Python</a> to know how to use circuit python on pi pico.</br>
+<img src="https://cdn-learn.adafruit.com/guides/cropped_images/000/001/954/medium640/Blinka_Computing_Grey.png?1520546961" target="_blank">
+</br>image source:<a href="https://learn.adafruit.com/" target="_blank">Adafruit's Site</a>
+<a href="https://circuitpython.org/" target="_blank">Circuit python</a> is Adafruit's branch of micropython use for microcontrollers.
+</br>You can check out <a href="https://cdn-learn.adafruit.com/downloads/pdf/getting-started-with-raspberry-pi-pico-circuitpython.pdf?timestamp=1620201933" target="_blank">Getting started with Raspberry Pi Pico and Circuit Python</a> to know how to use circuit python on pi pico.</br>
 We can install circuit python on pi pico using the uf2 file provide int he ada fruit site.
 <h4>Steps to install circuit python in pi pico :</h4>
 <ul> 
-  <li>Download the adafruit's circuit python uf2 file from <a href="https://circuitpython.org/board/raspberry_pi_pico/">here</a>.</li> 
+  <li>Download the adafruit's circuit python uf2 file from <a href="https://circuitpython.org/board/raspberry_pi_pico/" target="_blank">here</a>.</li> 
   <li>Press the bootselect button and connect it to your host device and it will apear as a usb mount device</li> 
   <li>Now simply drag and drop the uf2 file downloaded earlier onto the pico.Now the pico will reboot and you will see a circuit python device</li>
-  <li>Now you will need an <a href="https://en.wikipedia.org/wiki/Integrated_development_environment#:~:text=An%20integrated%20development%20environment%20(IDE,automation%20tools%20and%20a%20debugger.">IDE</a>.You can download <a href="https://codewith.mu/">MuEditor</a> or <a href="https://thonny.org/">Thonny</a>. Use whatever you like download and install it in your host device.</li>
+  <li>Now you will need an <a href="https://en.wikipedia.org/wiki/Integrated_development_environment#:~:text=An%20integrated%20development%20environment%20(IDE,automation%20tools%20and%20a%20debugger." target="_blank">IDE</a>.You can download <a href="https://codewith.mu/" target="_blank">MuEditor</a> or <a href="https://thonny.org/" target="_blank">Thonny</a>. Use whatever you like download and install it in your host device.</li>
 </ul>
-The adafruit's <a href="https://cdn-learn.adafruit.com/downloads/pdf/getting-started-with-raspberry-pi-pico-circuitpython.pdf?timestamp=1620201933">Getting started with Raspberry Pi Pico and Circuit Python</a> has all the details you require in it.</br>
+The adafruit's <a href="https://cdn-learn.adafruit.com/downloads/pdf/getting-started-with-raspberry-pi-pico-circuitpython.pdf?timestamp=1620201933" target="_blank">Getting started with Raspberry Pi Pico and Circuit Python</a> has all the details you require in it.</br>
 <h6>Note: I'm using Linux on my host device and thonny as my editor, but the steps works for windows, mac and linux.</h6>
