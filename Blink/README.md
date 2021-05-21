@@ -1,6 +1,6 @@
 # Blinking onboard led program
 
-The raspberry pi pico has a surface mound led on the board and can be controled as a GPIO.
+The raspberry pi pico has a surface mound led on the board and can be controled as a GPIO. Lets make a program to make the led blink.
 <h4>Steps:</h4>
 <ul>
 <li>Open your editor</li>
@@ -9,3 +9,14 @@ The raspberry pi pico has a surface mound led on the board and can be controled 
 </ul>
 
 # Explanation
+Lets see how the code works
+</br>
+<ul> 
+  <li></li> 
+  <li></li> 
+  <li></li> 
+  <li></li> 
+  <li></li> 
+  <li></li>
+  
+</ul>
