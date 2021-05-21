@@ -40,7 +40,7 @@ We can install circuit python on pi pico using the uf2 file provide int he ada f
 <h4>Steps to install circuit python in pi pico :</h4>
 <ul> 
   <li>Download the adafruit's circuit python uf2 file from <a href="https://circuitpython.org/board/raspberry_pi_pico/" target="_blank">here</a>.</li> 
-  <li>Press the bootselect button and connect it to your host device and it will apear as a usb mount device</li> 
+  <li>Press and hold the bootselect button and connect it to your host device and release the bootselect button.The pico will appear as a usb mount device</li> 
   <li>Now simply drag and drop the uf2 file downloaded earlier onto the pico.Now the pico will reboot and you will see a circuit python device</li>
   <li>Now you will need an <a href="https://en.wikipedia.org/wiki/Integrated_development_environment#:~:text=An%20integrated%20development%20environment%20(IDE,automation%20tools%20and%20a%20debugger." target="_blank">IDE</a>.You can download <a href="https://codewith.mu/" target="_blank">MuEditor</a> or <a href="https://thonny.org/" target="_blank">Thonny</a>. Use whatever you like download and install it in your host device.</li>
 </ul>
