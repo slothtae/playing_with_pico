@@ -33,7 +33,7 @@ image source: <a href="https://www.raspberrypi.org/documentation/rp2040/getting-
 
 # Pico With Circuit Python
 <img src="https://cdn-learn.adafruit.com/guides/cropped_images/000/001/954/medium640/Blinka_Computing_Grey.png?1520546961" target="_blank">
-</br>image source:<a href="https://learn.adafruit.com/" target="_blank">Adafruit's Site</a>
+</br>image source:<a href="https://learn.adafruit.com/" target="_blank">Adafruit's Site</a></br>
 <a href="https://circuitpython.org/" target="_blank">Circuit python</a> is Adafruit's branch of micropython use for microcontrollers.
 </br>You can check out <a href="https://cdn-learn.adafruit.com/downloads/pdf/getting-started-with-raspberry-pi-pico-circuitpython.pdf?timestamp=1620201933" target="_blank">Getting started with Raspberry Pi Pico and Circuit Python</a> to know how to use circuit python on pi pico.</br>
 We can install circuit python on pi pico using the uf2 file provide int he ada fruit site.
