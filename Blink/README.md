@@ -4,7 +4,7 @@ The raspberry pi pico has a surface mounted led on the board and can be controle
 <h4>Steps to check the program:</h4>
 <ul>
 <li>Connect the pico to your host machine.</li>
-<li>Open your editor(in my case Thonny.</li>
+<li>Open your editor (in my case Thonny) .</li>
 <li>Open the code.py in the pico storage from the editor.</li>
 <li>Copy and paste the code from the code.py file and save and run the file on pico.</li>
 </ul>
