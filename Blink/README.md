@@ -1,6 +1,6 @@
 # Blinking onboard led program
 This program is referenced from the book <a href="https://cdn-learn.adafruit.com/downloads/pdf/getting-started-with-raspberry-pi-pico-circuitpython.pdf?timestamp=1620201933">Getting started with Raspberry Pi Pico and Circuit Python</a> .</br>
-The raspberry pi pico has a surface mounted led on the board and can be controled as a GPIO. I made a program to make the led blink in circuit python check it out.
+The raspberry pi pico has a surface mounted led on the board and can be controled as a GPIO.</br>The program can make the on board led blink, check it out. Hope the setup is done then follow the steps for the new program.
 <h4>Steps to check the program:</h4>
 <ul>
 <li>Connect the pico to your host machine.</li>
@@ -19,7 +19,7 @@ Lets see how the code works
 <ul> 
   <li><img src="https://github.com/slothtae/playing_with_pico/blob/main/Blink/image%201.png?raw=true"></br>
   The import statement imports modules which have the methods or function we need to use the pico board hardware and other abilities.
-  Here we import 3 modules: board, digitalio and time.</br><h5>board :</h5>This module has all the pins we can use in pico.</br><h5>digitalio :</h5>Specifies if a pin is a digital input or output and other detail.</br><h5>time :</h5>We can use funcion like sleep</li></br>
+  Here we import 3 modules: board, digitalio and time.</br><h5>board :</h5>This module has all the pins we can use in pico.</br><h5>digitalio :</h5>Specifies if a pin is a digital input or output and other detail.</br><h5>time :</h5>We can use function like sleep</li></br>
   <li><img src="https://github.com/slothtae/playing_with_pico/blob/main/Blink/image%202.png?raw=true"></br>This line specifiy a variable led and assign the the led on the board as the led pin is saved as LED in board module. By using digitalio we specifies that the led is an Output device.</li></br> 
   <li><img src="https://github.com/slothtae/playing_with_pico/blob/main/Blink/image%203.png?raw=true"></br>We use a infinity loop with while loop and a always true condition. True is a boolean value in python. By using the .value we change the state of the led. The sleep function from time module is used to pause the state of the led for a certain time in our case 0.5 sec.</li> 
   
