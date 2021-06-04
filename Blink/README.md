@@ -38,3 +38,6 @@ Now we will use an external led and make it blink using circuit python.
   
 # Configuration
 Connect the component according to the picture.
+<img src="https://github.com/slothtae/playing_with_pico/blob/main/Blink/image%204.jpeg?raw=true"></br>
+In my case i have connected a 220ohms resistor at GPIO pin 15 or physical pin 20, connected the anode of led to the resistor. Then I connected the cathode of the led to the ground of the board at physical pin 23.
+</br>Now copy the content of code2.py file and paste in your code.py file and run the program.
