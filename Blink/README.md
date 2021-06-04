@@ -24,3 +24,17 @@ Lets see how the code works
   <li><img src="https://github.com/slothtae/playing_with_pico/blob/main/Blink/image%203.png?raw=true"></br>We use a infinity loop with while loop and a always true condition. True is a boolean value in python. By using the .value we change the state of the led. The sleep function from time module is used to pause the state of the led for a certain time in our case 0.5 sec.</li> 
   
 </ul>
+
+# With external led
+Now we will use an external led and make it blink using circuit python.
+
+# Hardware
+<h4>Components : </h4>
+  <h5>Pico</h5>
+  <h5>Breadboard</h5>
+  <h5>led</h5>
+  <h5>220-1k ohm resistor</h5>
+  <h5>Connector</h5>
+  
+# Configuration
+Connect the component according to the picture.
