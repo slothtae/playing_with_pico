@@ -32,7 +32,7 @@ image source: <a href="https://www.raspberrypi.org/documentation/rp2040/getting-
 </br>You can find all the specification and detail about raspberry pi pico <a href="https://www.raspberrypi.org/documentation/rp2040/getting-started/#board-specifications" target="_blank">here</a>.
 
 # Pico With Circuit Python
-<img src="https://cdn-learn.adafruit.com/guides/cropped_images/000/001/954/medium640/Blinka_Computing_Grey.png?1520546961" target="_blank">
+<img src="https://github.com/slothtae/playing_with_pico/blob/main/image/circuitpython.png" target="_blank">
 </br>image source:<a href="https://learn.adafruit.com/" target="_blank">Adafruit's Site</a></br>
 <a href="https://circuitpython.org/" target="_blank">Circuit python</a> is Adafruit's fork of micropython used for microcontrollers.
 </br>You can check out <a href="https://cdn-learn.adafruit.com/downloads/pdf/getting-started-with-raspberry-pi-pico-circuitpython.pdf?timestamp=1620201933" target="_blank">Getting started with Raspberry Pi Pico and Circuit Python</a> to know how to use circuit python on pi pico.</br>
