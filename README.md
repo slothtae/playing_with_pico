@@ -27,7 +27,7 @@ Raspberry Pi Pico is a low-cost, high-performance microcontroller board with fle
   <li>Accelerated floating-point libraries on-chip</li>
   <li>8 × Programmable I/O (PIO) state machines for custom peripheral support</li>
 </ul>
-<img src="https://www.raspberrypi.org/documentation/rp2040/getting-started/static/64b50c4316a7aefef66290dcdecda8be/Pico-R3-SDK11-Pinout.svg" target="_blank">
+<img src="https://github.com/slothtae/playing_with_pico/blob/main/image/pico.svg" target="_blank">
 image source: <a href="https://www.raspberrypi.org/documentation/rp2040/getting-started/#board-specifications" target="_blank">Raspberry pi site</a>
 </br>You can find all the specification and detail about raspberry pi pico <a href="https://www.raspberrypi.org/documentation/rp2040/getting-started/#board-specifications" target="_blank">here</a>.
 
